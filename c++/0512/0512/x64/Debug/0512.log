@@ -1,0 +1,8 @@
+﻿  App.cpp
+C:\Users\김승욱\Desktop\c++\0512\0512\Member.h(24,10): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+  Control.cpp
+C:\Users\김승욱\Desktop\c++\0512\0512\Member.h(24,10): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+  start.cpp
+C:\Users\김승욱\Desktop\c++\0512\0512\Member.h(24,10): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+  코드를 생성하고 있습니다...
+  0512.vcxproj -> C:\Users\김승욱\Desktop\c++\0512\x64\Debug\0512.exe

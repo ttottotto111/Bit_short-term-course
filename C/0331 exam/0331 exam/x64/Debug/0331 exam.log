@@ -1,0 +1,5 @@
+﻿  소스.c
+C:\Users\김승욱\Desktop\C sample\0331 exam\0331 exam\소스.c(161,21): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\김승욱\Desktop\C sample\0331 exam\0331 exam\소스.c(225,11): warning C4477: 'scanf_s' : 서식 문자열 '%c'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\김승욱\Desktop\C sample\0331 exam\0331 exam\소스.c(225,11): message : 이 인수는 버퍼 크기로 사용됩니다.
+  0331 exam.vcxproj -> C:\Users\김승욱\Desktop\C sample\0331 exam\x64\Debug\0331 exam.exe

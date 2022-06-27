@@ -1,0 +1,8 @@
+﻿  소스.c
+C:\Users\김승욱\Desktop\C sample\0408\0408\소스.c(25,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\김승욱\Desktop\C sample\0408\0408\소스.c(25,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 2('int *' 형식)과(와) 충돌합니다.
+C:\Users\김승욱\Desktop\C sample\0408\0408\소스.c(26,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\김승욱\Desktop\C sample\0408\0408\소스.c(26,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 1('int *' 형식)과(와) 충돌합니다.
+C:\Users\김승욱\Desktop\C sample\0408\0408\소스.c(27,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int **'입니다.
+C:\Users\김승욱\Desktop\C sample\0408\0408\소스.c(27,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 1('int **' 형식)과(와) 충돌합니다.
+  0408.vcxproj -> C:\Users\김승욱\Desktop\C sample\0408\x64\Debug\0408.exe

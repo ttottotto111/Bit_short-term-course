@@ -1,0 +1,4 @@
+﻿  소스.c
+C:\Users\김승욱\Desktop\C sample\0422\0422\소스.c(30,31): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\김승욱\Desktop\C sample\0422\0422\소스.c(30,31): message : 이 인수는 버퍼 크기로 사용됩니다.
+  0422.vcxproj -> C:\Users\김승욱\Desktop\C sample\0422\x64\Debug\0422.exe

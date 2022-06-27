@@ -1,0 +1,7 @@
+﻿  start.cpp
+C:\Users\김승욱\Desktop\c++\0603\0603\stuManager.h(21,20): error C3646: 'SelectMenu': 알 수 없는 재정의 지정자입니다.
+C:\Users\김승욱\Desktop\c++\0603\0603\stuManager.h(21,20): error C2059: 구문 오류: '('
+C:\Users\김승욱\Desktop\c++\0603\0603\stuManager.h(21,22): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+  Student.cpp
+  stuManager.cpp
+  코드를 생성하고 있습니다...

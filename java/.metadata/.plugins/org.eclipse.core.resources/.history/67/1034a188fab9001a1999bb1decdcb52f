@@ -1,0 +1,44 @@
+package woosongbit.sample;
+
+import java.time.LocalDate;
+
+public class Drink {
+	//맴버변수
+	private int number;   // 등록할 때마다 1000 번부터 + 10씩 자동할당:static맴버추가
+	private String name;
+	private int price;
+	private LocalDate date;
+	
+	private static int s_number  = 1000;  //클래스 맴버, 최초 하나만 생성
+	
+	//생성자
+	public Drink(String name, int price) {
+		this(name, price, LocalDate.now());	//현재 날짜
+	}
+	
+	public Drink(String name, int price, LocalDate date) {
+		this.number = s_number;
+		this.name = name;
+		this.price  = price;
+		this.date = date;
+		
+		s_number = s_number + 10;
+	}
+
+	//get&set메서드  :추후 필요시 작성
+	public String getName() {
+		return name;
+	}
+	public int getPrice() {
+		return price;
+	}
+	
+	//메서드
+	public void Println() {
+		System.out.println("[등록번호]" + number);
+		System.out.println("[이      름]" + name);
+		System.out.println("[가      격]" + price);		
+		System.out.println("[생산일자]" + date);
+	}
+
+}

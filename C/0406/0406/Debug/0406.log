@@ -1,0 +1,5 @@
+﻿  소스.c
+C:\Users\김승욱\Desktop\C sample\0406\0406\소스.c(76,7): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\김승욱\Desktop\C sample\0406\0406\소스.c(76,12): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\김승욱\Desktop\C sample\0406\0406\소스.c(81,16): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  0406.vcxproj -> C:\Users\김승욱\Desktop\C sample\0406\Debug\0406.exe

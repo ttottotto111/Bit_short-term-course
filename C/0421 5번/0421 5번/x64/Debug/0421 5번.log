@@ -1,0 +1,4 @@
+﻿  5번.c
+C:\Users\김승욱\Desktop\C sample\0421 5번\0421 5번\5번.c(22,11): warning C4477: 'scanf_s' : 서식 문자열 '%c'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\김승욱\Desktop\C sample\0421 5번\0421 5번\5번.c(22,11): message : 이 인수는 버퍼 크기로 사용됩니다.
+  0421 5번.vcxproj -> C:\Users\김승욱\Desktop\C sample\0421 5번\x64\Debug\0421 5번.exe

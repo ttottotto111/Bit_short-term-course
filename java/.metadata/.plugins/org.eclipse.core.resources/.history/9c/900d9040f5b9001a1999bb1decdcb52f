@@ -1,0 +1,45 @@
+package woosongbit.sample;
+
+
+public class Start {
+	public DrinkManager drink = new DrinkManager();
+	
+	public void Init() {
+	 System.out.println("-------------------------------------------------");
+		System.out.println(" Java 언어로 만든 제품 관리 프로그램");
+		System.out.println("-------------------------------------------------");
+		System.out.println(" 사용방법");
+		System.out.println(" 입력 : insert1 이름 가격");
+		System.out.println(" 입력 : insert2 이름 가격 연 월 일");
+		System.out.println(" 검색 : select  제품명");
+		System.out.println(" 삭제 : delete 제품명");
+		System.out.println(" 수정 : update 제품명 가격");
+		System.out.println(" 프로그램 종료 : exit");
+		System.out.println("-------------------------------------------------\n");
+}
+
+	public void Run() {		
+		//실행부
+		while(true) {
+			drink.View();
+			String[] msg = InputPaser();
+			if(msg[0].equals("input1")) {			//insert 이름 
+				int money = Integer.parseInt(msg[1]);				
+				mem.InputMoney(money);				
+			}
+			else if(msg[0].equals("select")) {			//insert 이름 
+				String name = msg[1];				
+				mem.SelectProduct(name);				
+			}
+			else if(msg[0].equals("getmoney")) {		//select 이름 			
+				mem.GetMoney();				
+			}
+			else if(msg[0].equals("exit"))
+				break;
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

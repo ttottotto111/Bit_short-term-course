@@ -1,0 +1,9 @@
+﻿  app.c
+  소스.c
+  코드를 생성하고 있습니다...
+  control.c
+C:\Users\김승욱\Desktop\C sample\0416\0414\control.c(61,10): warning C4477: 'scanf_s' : 서식 문자열 '%c'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\김승욱\Desktop\C sample\0416\0414\control.c(61,10): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\김승욱\Desktop\C sample\0416\0414\control.c(111,6): warning C4101: 'number' :참조되지 않은 지역 변수입니다.
+  std.h
+  0414.vcxproj -> C:\Users\김승욱\Desktop\C sample\0416\x64\Debug\0414.exe

@@ -1,0 +1,9 @@
+package woosongbit.sample;
+
+public class Member {
+	private int number;
+	private String name;
+	private char gender;
+	private String phone;
+	
+}

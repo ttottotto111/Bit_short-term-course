@@ -1,0 +1,80 @@
+package woosongbit.sample;
+
+import java.util.ArrayList;
+
+public class StuManager {
+	private ArrayList<UniStudent> stulist;	//<===템플릿클래스를 활용해서 Drink를 저장하는 collection클래스
+
+	public StuManager() {
+		stulist = new ArrayList<UniStudent>();
+	}
+	
+	//기능 메서드
+	void PrintAll() {
+		/*
+		for(int i=0; i< arr.size(); i++) {
+			Drink drink  = arr.get(i); //자식 <= 부모 : 다운캐스팅
+			System.out.print(drink.getName() + ", ");
+		}
+		System.out.println("\n");
+		*/
+		//전체순회할때는 foreach문이 편리하다. 
+		for(UniStudent stu : stulist) {
+			System.out.print(stu.getName() + ", ");
+		}
+		System.out.println("\n");
+	}
+	
+	//입력 : insert 이름 학과 학년
+	public void Insert(String name, String subject, int grade) {
+		UniStudent stu = new UniStudent(name, subject, grade);
+		if( stulist.add(stu) )
+			PrintAll();
+		else
+			System.out.println("실패");
+	}
+	
+	//검색알고리즘
+	private UniStudent NumbertoName(int number)  {
+		for(UniStudent stu : stulist) {
+			if(stu.getNumber()==number)	//String == String 
+				return stu;		//주소넘어감....
+		}
+		return null;		
+	}
+	
+	//메서드 - 검색
+	public void Select(int number) {
+		UniStudent stu = NumbertoName(number);
+		if( stu == null)	{
+			System.out.println("없다");
+			return;
+		}		
+		stu.Println();
+	}
+	
+	//메서드 - 삭제
+	public void Delete(int number) {
+		UniStudent stu = NumbertoName(number);
+		if( stu == null)	{
+			System.out.println("없다");
+			return;
+		}
+		stulist.remove(stu);			//<== 삭제할 위치
+		System.out.println("삭제성공");
+		PrintAll();
+	}
+	
+	// 메서드 - 수정
+	public void Update(int number, int grade) {
+		UniStudent stu = NumbertoName(number);
+		if(stu == null)		{
+			System.out.println("없다");
+			return;
+		}
+				
+		stu.setGrade(grade);
+		PrintAll();
+	}
+	
+}

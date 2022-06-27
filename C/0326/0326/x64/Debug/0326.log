@@ -1,0 +1,12 @@
+﻿  소스.c
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(116,10): warning C4477: 'scanf_s' : 서식 문자열 '%c'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(116,10): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(119,10): warning C4477: 'scanf_s' : 서식 문자열 '%c'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(119,10): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(145,25): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(167,10): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(167,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(167,10): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%c'에 필요합니다.
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(167,10): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\김승욱\Desktop\C sample\0326\0326\소스.c(184,21): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  0326.vcxproj -> C:\Users\김승욱\Desktop\C sample\0326\x64\Debug\0326.exe
